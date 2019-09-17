@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Change Place</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css(.) styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!--<link rel="stylesheet" href="styles/bootstrap-table.css">-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+  <!-- endbuild -->
+  <!--<script>
+    $(document).ready(function(){
+       $("a[data-tab-destination]").on('click', function() {
+            var tab = $(this).attr('data-tab-destination');
+            $("#"+tab).click();
+        });
+    });
+
+  </script>-->
+</head>
+<body>
+<!--[if lte IE 8]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<div class="col-xs-12 no-padded dFlex-column h100p">
+
+  <div class="header">
+    <div class="navbar navbar-default" role="navigation">
+
+      <div class="container">
+        <div class="navbar-header">
+
+          <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>-->
+
+          <a class="navbar-brand" href="#/">Change Place</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="material-icons v-align-m">account_circle</span>&nbsp; Kyle McMan <span class="caret"></span></a> <ul class="dropdown-menu"> <li><a href="#">Action</a></li> <li><a href="#">Another action</a></li> <li><a href="#">Something else here</a></li> <li role="separator" class="divider"></li> <li><a href="#">Separated link</a></li> </ul></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12 no-padded main-content">
+    <div class="container h100p">
+      <div class="row dFlex h100p">
+        <div class="col-xs-3 no-pad-right">
+          <nav class="navbar navbar-default sidebar" role="navigation">
+            <div class="container-fluid">
+              <!--<div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>-->
+              <div class="navbar" id="bs-sidebar-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#!dashboard"><span class="glyphicon glyphicon-dashboard"></span>Dashboard</a></li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown"><span class="material-icons">account_circle</span> Profile <span class="caret"></span></a>
+                    <div class="dropdown-menu forAnimate no-padded" role="menu">
+                      <div class="list-group no-gapped">
+                        <a href="#!profile" class="list-group-item">
+                          Profile Settings
+                        </a>
+                        <a href="#!account-settings" class="list-group-item">Account Settings</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown"><span class="material-icons">supervisor_account</span> Clients <span class="caret"></span></a>
+                    <div class="dropdown-menu forAnimate no-padded" role="menu">
+                      <div class="list-group no-gapped">
+                        <a href="#!clients" class="list-group-item">
+                          Clients List
+                        </a>
+                        <a href="#!add-client" class="list-group-item">Invite Clients</a>
+                        <a href="#!connection-requests" class="list-group-item">Connection Requests</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown"><span class="material-icons">directions_bike</span> Exercise <span class="caret"></span></a>
+                    <div class="dropdown-menu forAnimate no-padded" role="menu">
+                      <div class="list-group no-gapped">
+                        <a href="#!exercises" class="list-group-item">
+                          Available Exercises
+                        </a>
+                        <a href="#!upload-exercise" class="list-group-item">Upload Exercise</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <a class="dropdown-toggle" data-toggle="dropdown"><span class="material-icons">format_quote</span> Quotes <span class="caret"></span></a>
+                    <div class="dropdown-menu forAnimate no-padded" role="menu">
+                      <div class="list-group no-gapped">
+                        <a href="#!quotes" class="list-group-item">Quote List</a>
+                        <a href="#!schedule-quote" class="list-group-item">Schedule Quote</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li ><a href="#!reminders"><span class="material-icons">alarm</span> Reminders</a></li>
+                  <li ><a href="#!notifications"><span class="glyphicon glyphicon-bell"></span> Notifications</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer footer-fixed">
+    <div class="container">
+      <div class="col-xs-6">
+        <p class="no-gap-bottom">All rights reserved, Copyright &copy; 2017</p>
+      </div>
+      <div class="col-xs-6">
+        <ul class="nav nav-pills navbar-right footer-nav">
+          <li role="presentation"><a href="#">Privacy Policy</a></li>
+          <li role="presentation"><a href="#">Terms & Conditions </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+      &(document).ready(function(){
+        $('.sidebar li').click(
+          $(this).siblings().removeClass('active');
+          $(this).addClass('active');
+        )
+      });
+    </script>
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+<script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-aria/angular-aria.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="bower_components/angular-messages/angular-messages.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/angular-touch/angular-touch.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js({.tmp,app}) scripts/scripts.js -->
+<script src="../scripts/app.js"></script>
+<!--<script src="../scripts/bootstrap-table.js"></script>-->
+<script src="../scripts/controllers/main.js"></script>
+<script src="../scripts/controllers/about.js"></script>
+<script src="../scripts/controllers/dashboard.js"></script>
+<script src="../scripts/controllers/profile.js"></script>
+<script src="../scripts/controllers/account-settings.js"></script>
+<script src="../scripts/controllers/clients.js"></script>
+<script src="../scripts/controllers/add-client.js"></script>
+<!-- endbuild -->
+</body>
+</html>
